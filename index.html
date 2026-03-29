@@ -1,169 +1,242 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
+  <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="img/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="img/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Instituto Coração Almas Missionárias | Formando Corações e Mentes</title>
-    <meta name="description" content="Instituto Coração Almas Missionárias - Formando Corações e Mentes para servir com excelência." />
+    <title>
+      Instituto Coração Almas Missionárias | Formando Corações e Mentes
+    </title>
+    <meta
+      name="description"
+      content="Instituto Coração Almas Missionárias - Formando Corações e Mentes para servir com excelência."
+    />
+
+    <!-- ==================== FAVICONS E ÍCONES ==================== -->
+    <!-- Coloque todas as imgns na pasta "img/" -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="img/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="img/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+
+    <!-- Manifest para PWA (ícones Android/Chrome) -->
+    <link rel="manifest" href="site.webmanifest" />
 
     <link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
-
+  </head>
+  <body>
     <!-- TOP BAR -->
     <div class="top-bar">
-        📍 Campinas - SP &nbsp;&nbsp; | &nbsp;&nbsp; 📞 (19) 97828-6975
+      📍 Campinas - SP &nbsp;&nbsp; | &nbsp;&nbsp; 📞 (19) 97828-6975
+
+      <!-- Botão WhatsApp Flutuante -->
+      <a
+        href="https://wa.me/5519978286975?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Instituto%20Cora%C3%A7%C3%A3o%20Almas."
+        target="_blank"
+        class="whatsapp-float"
+        title="Fale conosco no WhatsApp"
+      >
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+          alt="WhatsApp"
+          width="60"
+        />
+      </a>
     </div>
 
     <!-- NAVEGAÇÃO -->
     <nav>
-        <div class="nav-content">
-            <div class="logo-nav">
-                <img src="imagens/logo.png" alt="Instituto Coração Almas" />
-            </div>
-            <ul class="menu">
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#sobre">Quem Somos</a></li>
-                <li><a href="#calendario">Calendário 2026</a></li>
-                <li><a href="#instagram">Instagram</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-            <a href="#contato" class="btn btn-primary">Quero Ajudar</a>
+      <div class="nav-content">
+        <div class="logo-nav">
+          <img
+            src="img/android-chrome-512x512.png"
+            alt="Instituto Coração Almas Missionárias"
+          />
         </div>
+        <ul class="menu">
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#sobre">Quem Somos</a></li>
+          <li><a href="#calendario">Calendário 2026</a></li>
+          <li><a href="#instagram">Instagram</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <a href="#contato" class="btn btn-primary">Quero Ajudar</a>
+      </div>
     </nav>
 
     <!-- HERO -->
     <header>
-        <div class="hero-content">
-            <h1>Instituto Coração Almas Missionárias</h1>
-            <p class="slogan">"Formando Corações e Mentes para servir com excelência"</p>
-
-            <a href="#projetos" class="btn btn-primary">Conheça Nossos Projetos</a>
-            <a href="#contato" class="btn btn-secondary">Contribuir Agora</a>
-        </div>
+      <div class="hero-content">
+        <h1>Instituto Coração Almas Missionárias</h1>
+        <p class="slogan">
+          "Formando Corações e Mentes para servir com excelência"
+        </p>
+        <a href="#projetos" class="btn btn-primary">Conheça Nossos Projetos</a>
+        <a href="#contato" class="btn btn-secondary">Contribuir Agora</a>
+      </div>
     </header>
 
     <!-- SOBRE -->
     <section id="sobre" class="section-sobre">
-        <h2>Quem Somos</h2>
-        <div class="container">
-            <p>Somos uma associação católica dedicada à formação integral de crianças, jovens e adultos em Campinas-SP.</p>
-            <p>Nosso carisma é preparar corações e mentes para o serviço missionário, construindo o futuro Colégio Católico “Dai-me Almas”.</p>
-        </div>
+      <h2>Quem Somos</h2>
+      <div class="container">
+        <p>
+          Somos uma associação católica dedicada à formação integral de
+          crianças, jovens e adultos em Campinas-SP.
+        </p>
+        <p>
+          Nosso carisma é preparar corações e mentes para o serviço missionário,
+          construindo o futuro Colégio Católico “Dai-me Almas”.
+        </p>
+      </div>
     </section>
 
     <!-- PROJETOS -->
     <section id="projetos" class="section-projetos">
-        <h2>Nossos Projetos</h2>
-        <div class="cards">
-            <div class="card">
-                <img src="imagens/msg357.jpg" alt="MSG 357" />
-                <div class="card-content">
-                    <h3>Projeto MSG 357</h3>
-                    <p>Formação missionária para jovens e adultos.</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="imagens/rifa.jpg" alt="Rifa" />
-                <div class="card-content">
-                    <h3>Rifa Beneficente</h3>
-                    <p>Apoie nossos projetos com a rifa anual.</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="imagens/pascoa.jpg" alt="Oficina de Páscoa" />
-                <div class="card-content">
-                    <h3>Oficina de Páscoa 2026</h3>
-                    <p>Caça ao Tesouro - 21 de março de 2026</p>
-                </div>
-            </div>
+      <h2>Nossos Projetos</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="img/android-chrome-512x512.png" alt="Projeto MSG 357" />
+          <div class="card-content">
+            <h3>Projeto MSG 357</h3>
+            <p>Formação missionária para jovens e adultos.</p>
+          </div>
         </div>
+        <div class="card">
+          <img src="img/android-chrome-192x192.png" alt="Rifa Beneficente" />
+          <div class="card-content">
+            <h3>Rifa Beneficente</h3>
+            <p>Apoie nossos projetos com a rifa anual.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/favicon-32x32.png" alt="Oficina de Páscoa" />
+          <div class="card-content">
+            <h3>Oficina de Páscoa 2026</h3>
+            <p>Caça ao Tesouro - 21 de março de 2026</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- CALENDÁRIO 2026 -->
     <section id="calendario" class="section-calendario">
-        <h2>Calendário Anual 2026</h2>
-        <p class="calendario-texto">Confira todas as atividades do ano!</p>
+      <h2>Calendário Anual 2026</h2>
+      <p class="calendario-texto">Confira todas as atividades do ano!</p>
 
-        <div class="calendario-container">
-            <div class="calendario-card">
-                <h3>Primeiro Semestre</h3>
-                <img src="imagens/calendario-1-semestre.jpg" alt="Calendário Primeiro Semestre 2026" class="calendario-img">
-            </div>
-            <div class="calendario-card">
-                <h3>Segundo Semestre</h3>
-                <img src="imagens/calendario-2-semestre.jpg" alt="Calendário Segundo Semestre 2026" class="calendario-img">
-            </div>
+      <div class="calendario-container">
+        <div class="calendario-card">
+          <h3>Primeiro Semestre</h3>
+          <img
+            src="img/android-chrome-192x192.png"
+            alt="Calendário 1º Semestre 2026"
+            class="calendario-img"
+          />
         </div>
+        <div class="calendario-card">
+          <h3>Segundo Semestre</h3>
+          <img
+            src="img/android-chrome-192x192.png"
+            alt="Calendário 2º Semestre 2026"
+            class="calendario-img"
+          />
+        </div>
+      </div>
 
-        <div style="text-align: center; margin-top: 40px;">
-            <a href="#" class="btn btn-primary">Baixar Calendário Completo 2026</a>
-        </div>
+      <div style="text-align: center; margin-top: 40px">
+        <a href="#" class="btn btn-primary"
+          >Baixar Calendário Completo 2026 (PDF)</a
+        >
+      </div>
     </section>
 
     <!-- INSTAGRAM -->
     <section id="instagram" class="section-instagram">
-        <h2>Siga-nos no Instagram</h2>
-        <p class="instagram-texto">
-            Acompanhe nossas atividades, eventos e o Calendário Anual 2026
-        </p>
+      <h2>Siga-nos no Instagram</h2>
+      <p class="instagram-texto">Acompanhe nossas atividades e eventos</p>
 
-        <div class="instagram-embed-container">
-            <blockquote class="instagram-media"
-                        data-instgrm-captioned
-                        data-instgrm-permalink="https://www.instagram.com/p/DVZQe8yEtnE/"
-                        data-instgrm-version="14"
-                        style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:1px; max-width:540px; min-width:326px; padding:0; width:100%;">
-            </blockquote>
-        </div>
+      <!-- Seus embeds do Instagram (mantive como estava) -->
+      <div class="instagram-embed-container">
+        <blockquote
+          class="instagram-media"
+          data-instgrm-permalink="https://www.instagram.com/p/DVZQe8yEtnE/"
+          data-instgrm-version="14"
+        ></blockquote>
+      </div>
+      <div class="instagram-embed-container">
+        <blockquote
+          class="instagram-media"
+          data-instgrm-permalink="https://www.instagram.com/reel/DPOdd9Nju-3"
+          data-instgrm-version="14"
+        ></blockquote>
+      </div>
+      <div class="instagram-embed-container">
+        <blockquote
+          class="instagram-media"
+          data-instgrm-permalink="https://www.instagram.com/reel/DRzsuYWkVlU/"
+          data-instgrm-version="14"
+        ></blockquote>
+      </div>
+      <!-- Repita para os outros dois reels que você tinha -->
 
-        <div class="instagram-button" style="margin-top: 40px;">
-            <a href="https://www.instagram.com/institutocoracaoalmas" 
-               target="_blank" 
-               class="btn btn-primary">
-                Ver mais no Instagram → @institutocoracaoalmas
-            </a>
-        </div>
+      <div style="text-align: center; margin-top: 40px">
+        <a
+          href="https://www.instagram.com/institutocoracaoalmas"
+          target="_blank"
+          class="btn btn-primary"
+        >
+          @institutocoracaoalmas → Ver mais
+        </a>
+      </div>
     </section>
 
     <!-- CONTATO / DOAÇÃO -->
     <section id="contato" class="section-contato">
-        <h2>Faça parte dessa Missão</h2>
-        <p class="contato-texto">
-            Sua contribuição faz a diferença na vida de muitas crianças e jovens.
-        </p>
-
-        <a href="https://docs.google.com/forms/d/1ICknstSOsWtyu2XzgyZ7bP8HliAtwv81KyvRkns..." 
-           target="_blank" 
-           class="btn btn-primary btn-large">
-            Quero Contribuir Agora
-        </a>
+      <h2>Faça parte dessa Missão</h2>
+      <p>
+        Sua contribuição faz a diferença na vida de muitas crianças e jovens.
+      </p>
+      <a
+        href="https://docs.google.com/forms/..."
+        target="_blank"
+        class="btn btn-primary btn-large"
+      >
+        Quero Contribuir Agora
+      </a>
     </section>
 
-    <!-- FOOTER MELHORADO -->
+    <!-- FOOTER -->
     <footer>
-        <div class="footer-content">
-            <p>📍 Campinas - SP &nbsp;&nbsp; | &nbsp;&nbsp; 📞 (19) 97828-6975</p>
-            <p>Instagram: <strong>@institutocoracaoalmas</strong></p>
-            
-            <div class="footer-links">
-                <a href="mailto:seuemail@institutocoracaoalmas.com.br">
-                    ✉️ Email
-                </a>
-                <a href="https://celiotech.netlify.app/" target="_blank">
-                    Criado e desenvolvido por Célio
-                </a>
-            </div>
-
-            <p class="copyright">
-                Copyright © 2026 Instituto Coração Almas Missionárias - Todos os direitos reservados
-            </p>
+      <div class="footer-content">
+        <p>📍 Campinas - SP &nbsp;&nbsp; | &nbsp;&nbsp; 📞 (19) 97828-6975</p>
+        <p>Instagram: <strong>@institutocoracaoalmas</strong></p>
+        <p class="copyright">
+          Copyright © 2026 Instituto Coração Almas Missionárias
+        </p>
+        <div class="footer-links">
+          <a href="https://celiotech.netlify.app/" target="_blank"
+            >Criado e Desenvolvido por Célio</a
+          >
         </div>
+      </div>
     </footer>
 
-    <!-- Script Instagram Embed -->
+    <!-- Script Instagram -->
     <script async src="//www.instagram.com/embed.js"></script>
     <script src="js/scripts.js"></script>
-</body>
+  </body>
 </html>
