@@ -1,114 +1,169 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- SEO otimizado -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Instituto Coração Almas Missionárias | Formando Corações e Mentes</title>
-    <meta name="description" content="Instituto Coração Almas Missionárias - Formando Corações e Mentes para servir com excelência. Conheça nossos projetos, oficinas e o futuro Colégio Católico em Campinas.">
-    <meta name="keywords" content="instituto coracao almas, missões, colégio católico, , páscoa, formação missionária, campinas">
-    <meta name="author" content="Instituto Coração Almas Missionárias">
-    
-    <!-- Open Graph / Social Cards (importante quando compartilhar o link) -->
-    <meta property="og:title" content="Instituto Coração Almas Missionárias">
-    <meta property="og:description" content="Formando Corações e Mentes para servir com excelência. Junte-se à nossa missão!">
-    <meta property="og:image" content="https://seu-site.com/imagens/hero.jpg"> <!-- Troque pela URL da sua imagem principal -->
-    <meta property="og:url" content="https://seu-site.com">
-    <meta property="og:type" content="website">
+    <meta name="description" content="Instituto Coração Almas Missionárias - Formando Corações e Mentes para servir com excelência." />
 
-
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        📍 Campinas - SP &nbsp;&nbsp; | &nbsp;&nbsp; 📞 (19) 97828-6975
+    </div>
+
+    <!-- NAVEGAÇÃO -->
+    <nav>
+        <div class="nav-content">
+            <div class="logo-nav">
+                <img src="imagens/logo.png" alt="Instituto Coração Almas" />
+            </div>
+            <ul class="menu">
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#sobre">Quem Somos</a></li>
+                <li><a href="#calendario">Calendário 2026</a></li>
+                <li><a href="#instagram">Instagram</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <a href="#contato" class="btn btn-primary">Quero Ajudar</a>
+        </div>
+    </nav>
+
     <!-- HERO -->
     <header>
-        <div class="logo">
-            <img src="https://via.placeholder.com/120" alt="Logo Instituto Coração Almas" style="width:110px;">
+        <div class="hero-content">
+            <h1>Instituto Coração Almas Missionárias</h1>
+            <p class="slogan">"Formando Corações e Mentes para servir com excelência"</p>
+
+            <a href="#projetos" class="btn btn-primary">Conheça Nossos Projetos</a>
+            <a href="#contato" class="btn btn-secondary">Contribuir Agora</a>
         </div>
-        <h1>Instituto Coração Almas Missionárias</h1>
-        <p class="slogan">"Formando Corações e Mentes para servir com excelência"</p>
-        
-        <a href="#projetos" class="btn btn-primary">Conheça nossos Projetos</a>
-        <a href="#contato" class="btn btn-secondary">Quero Ajudar</a>
     </header>
 
     <!-- SOBRE -->
-    <section style="background:#f8f9fa;">
+    <section id="sobre" class="section-sobre">
         <h2>Quem Somos</h2>
-        <div style="max-width:900px; margin:0 auto; text-align:center; font-size:1.1rem;">
-            <p>Somos o <strong>Instituto Coração Almas Missionárias</strong>, uma instituição católica dedicada à formação integral de crianças, jovens e adultos.</p>
-            <p>Nosso objetivo é preparar corações e mentes para o serviço missionário com excelência, através de projetos educativos, espirituais e sociais.</p>
+        <div class="container">
+            <p>Somos uma associação católica dedicada à formação integral de crianças, jovens e adultos em Campinas-SP.</p>
+            <p>Nosso carisma é preparar corações e mentes para o serviço missionário, construindo o futuro Colégio Católico “Dai-me Almas”.</p>
         </div>
     </section>
 
     <!-- PROJETOS -->
-    <section id="projetos">
+    <section id="projetos" class="section-projetos">
         <h2>Nossos Projetos</h2>
         <div class="cards">
             <div class="card">
-                <img src="https://via.placeholder.com/400x200/003087/ffffff?text=MSG+357" alt="MSG 357">
+                <img src="imagens/msg357.jpg" alt="MSG 357" />
                 <div class="card-content">
                     <h3>Projeto MSG 357</h3>
-                    <p>Iniciativa de formação missionária para jovens e adultos.</p>
+                    <p>Formação missionária para jovens e adultos.</p>
                 </div>
             </div>
-            
             <div class="card">
-                <img src="https://via.placeholder.com/400x200/D4AF37/000?text=" alt="">
+                <img src="imagens/rifa.jpg" alt="Rifa" />
                 <div class="card-content">
-                    <h3> Beneficente</h3>
-                    <p>Apoie nossos projetos participando da nossa  anual.</p>
+                    <h3>Rifa Beneficente</h3>
+                    <p>Apoie nossos projetos com a rifa anual.</p>
                 </div>
             </div>
-            
             <div class="card">
-                <img src="https://via.placeholder.com/400x200/C8102E/ffffff?text=Páscoa" alt="Oficina de Páscoa">
+                <img src="imagens/pascoa.jpg" alt="Oficina de Páscoa" />
                 <div class="card-content">
                     <h3>Oficina de Páscoa 2026</h3>
-                    <p>Caça ao Tesouro e atividades para toda a família no dia 21/03/2026.</p>
+                    <p>Caça ao Tesouro - 21 de março de 2026</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- CALENDÁRIO 2026 -->
-    <section style="background: linear-gradient(135deg, #003087, #D4AF37); color:white; text-align:center;">
-        <h2 style="color:white;">Calendário Anual 2026</h2>
-        <p style="font-size:1.8rem; margin:20px 0;">Estamos preparando um ano incrível para servir melhor!</p>
-        <a href="#" class="btn btn-primary" style="background:white; color:#003087; font-size:1.2rem;">Baixar Calendário 2026</a>
+    <section id="calendario" class="section-calendario">
+        <h2>Calendário Anual 2026</h2>
+        <p class="calendario-texto">Confira todas as atividades do ano!</p>
+
+        <div class="calendario-container">
+            <div class="calendario-card">
+                <h3>Primeiro Semestre</h3>
+                <img src="imagens/calendario-1-semestre.jpg" alt="Calendário Primeiro Semestre 2026" class="calendario-img">
+            </div>
+            <div class="calendario-card">
+                <h3>Segundo Semestre</h3>
+                <img src="imagens/calendario-2-semestre.jpg" alt="Calendário Segundo Semestre 2026" class="calendario-img">
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="#" class="btn btn-primary">Baixar Calendário Completo 2026</a>
+        </div>
     </section>
 
-    <!-- CHAMADA PARA DOAÇÃO -->
-    <section id="contato" style="text-align:center; background:#f8f9fa;">
+    <!-- INSTAGRAM -->
+    <section id="instagram" class="section-instagram">
+        <h2>Siga-nos no Instagram</h2>
+        <p class="instagram-texto">
+            Acompanhe nossas atividades, eventos e o Calendário Anual 2026
+        </p>
+
+        <div class="instagram-embed-container">
+            <blockquote class="instagram-media"
+                        data-instgrm-captioned
+                        data-instgrm-permalink="https://www.instagram.com/p/DVZQe8yEtnE/"
+                        data-instgrm-version="14"
+                        style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:1px; max-width:540px; min-width:326px; padding:0; width:100%;">
+            </blockquote>
+        </div>
+
+        <div class="instagram-button" style="margin-top: 40px;">
+            <a href="https://www.instagram.com/institutocoracaoalmas" 
+               target="_blank" 
+               class="btn btn-primary">
+                Ver mais no Instagram → @institutocoracaoalmas
+            </a>
+        </div>
+    </section>
+
+    <!-- CONTATO / DOAÇÃO -->
+    <section id="contato" class="section-contato">
         <h2>Faça parte dessa Missão</h2>
-        <p style="max-width:700px; margin:0 auto 40px; font-size:1.2rem;">
+        <p class="contato-texto">
             Sua contribuição faz a diferença na vida de muitas crianças e jovens.
         </p>
-        
+
         <a href="https://docs.google.com/forms/d/1ICknstSOsWtyu2XzgyZ7bP8HliAtwv81KyvRkns..." 
            target="_blank" 
-           class="btn btn-primary" style="font-size:1.3rem; padding:18px 40px;">
+           class="btn btn-primary btn-large">
             Quero Contribuir Agora
         </a>
     </section>
 
-    <!-- FOOTER -->
+    <!-- FOOTER MELHORADO -->
     <footer>
-        <h3>Instituto Coração Almas Missionárias</h3>
-        <p>Formando Corações e Mentes para servir com excelência</p>
-        
-        <div class="redes">
-            <p>Siga-nos no Instagram: <strong>@institutocoracaoalmas</strong></p>
+        <div class="footer-content">
+            <p>📍 Campinas - SP &nbsp;&nbsp; | &nbsp;&nbsp; 📞 (19) 97828-6975</p>
+            <p>Instagram: <strong>@institutocoracaoalmas</strong></p>
+            
+            <div class="footer-links">
+                <a href="mailto:seuemail@institutocoracaoalmas.com.br">
+                    ✉️ Email
+                </a>
+                <a href="https://celiotech.netlify.app/" target="_blank">
+                    Criado e desenvolvido por Célio
+                </a>
+            </div>
+
+            <p class="copyright">
+                Copyright © 2026 Instituto Coração Almas Missionárias - Todos os direitos reservados
+            </p>
         </div>
-        
-        <p>📍 Campinas - SP</p>
-        <p>📞 (19) 97828-6975</p>
-        
-        <p style="margin-top:40px; font-size:0.9rem; opacity:0.8;">
-            © 2026 Instituto Coração Almas Missionárias - Todos os direitos reservados
-        </p>
     </footer>
 
+    <!-- Script Instagram Embed -->
+    <script async src="//www.instagram.com/embed.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
