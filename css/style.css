@@ -498,6 +498,9 @@ footer .copyright {
   .btn-nav {
     display: none;
   }
+  .top-bar {
+    display: none;
+  }
   .footer-links a {
     display: block;
     margin: 10px 0;
