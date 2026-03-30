@@ -455,7 +455,7 @@ footer .copyright {
   .menu {
     position: fixed;
     left: -100%; /* Esconde o menu para a esquerda */
-    top: 130px; /* Ajuste conforme a altura da sua nav */
+    top: 100px; /* Ajuste conforme a altura da sua nav */
 
     flex-direction: column;
     background-color: white;
