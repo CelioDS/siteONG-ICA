@@ -4,9 +4,33 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="img/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="img/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="manifest" href="site.webmanifest" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://seusite.com.br/" />
+    <meta
+      property="og:title"
+      content="Instituto Coração Almas Missionárias | Formando Corações e Mentes"
+    />
+    <meta
+      property="og:description"
+      content="Apoie o Projeto MSG 357. Transformando vidas e levando esperança às crianças através da solidariedade católica."
+    />
+    <meta
+      property="og:image"
+      content="https://seusite.com.br/img/compartilhamento.jpg"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Instituto Coração Almas Missionárias" />
+    <meta
+      name="twitter:description"
+      content="Apoie o Projeto MSG 357 e transforme a vida de centenas de famílias."
+    />
+    <meta
+      name="twitter:image"
+      content="https://seusite.com.br/img/compartilhamento.jpg"
+    />
 
     <title>
       Instituto Coração Almas Missionárias | Formando Corações e Mentes
@@ -40,7 +64,8 @@
   </head>
   <body>
     <!-- TOP BAR -->
-    <div class="top-bar">
+
+    <header class="top-bar">
       📍 Campinas - SP &nbsp;&nbsp; | &nbsp;&nbsp; 📞 (19) 97828-6975
 
       <!-- Botão WhatsApp Flutuante -->
@@ -56,7 +81,7 @@
           width="60"
         />
       </a>
-    </div>
+    </header>
 
     <!-- NAVEGAÇÃO -->
     <nav>
@@ -67,14 +92,20 @@
             alt="Instituto Coração Almas Missionárias"
           />
         </div>
+
         <ul class="menu">
+          <li><a href="#">Início</a></li>
           <li><a href="#projetos">Projetos</a></li>
           <li><a href="#sobre">Quem Somos</a></li>
           <li><a href="#calendario">Calendário 2026</a></li>
           <li><a href="#instagram">Instagram</a></li>
           <li><a href="#contato">Contato</a></li>
         </ul>
-        <a href="#contato" class="btn btn-primary">Quero Ajudar</a>
+        <a href="#contato" class="btn-nav btn btn-primary">Quero Contribuir</a>
+        <button class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span><span class="bar"></span>
+        </button>
       </div>
     </nav>
 
@@ -108,89 +139,95 @@
     <!-- PROJETOS -->
     <section id="projetos" class="section-projetos">
       <h2>Nossos Projetos</h2>
-      <div class="cards">
-        <div class="card">
-          <img src="img/android-chrome-512x512.png" alt="Projeto MSG 357" />
+
+      <aside>
+        <div class="cards">
+          <img src="img/mt357.png" alt="Projeto MSG 357" />
           <div class="card-content">
             <h3>Projeto MSG 357</h3>
-            <p>Formação missionária para jovens e adultos.</p>
+            <p>
+              <strong>Transformando vidas através da solidariedade.</strong>
+            </p>
+
+            <div class="projeto-detalhes">
+              <p>
+                Começamos com humildade, entregando <strong>300 kits</strong> no
+                primeiro ano. Pela graça de Deus, o projeto cresceu e, no último
+                ano, distribuímos mais de <strong>700 kits</strong> — cada um
+                preparado com carinho, fé e valores que fortalecem a família.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="card">
-          <img src="img/android-chrome-192x192.png" alt="Rifa Beneficente" />
+
+        <div class="cards">
+          <img src="img/mt357.png" alt="Projeto MSG 357" />
           <div class="card-content">
-            <h3>Rifa Beneficente</h3>
-            <p>Apoie nossos projetos com a rifa anual.</p>
+            <h3>Projeto MSG 357</h3>
+            <p>
+              <strong>Transformando vidas através da solidariedade.</strong>
+            </p>
+
+            <div class="projeto-detalhes">
+              <p>
+                Começamos com humildade, entregando <strong>300 kits</strong> no
+                primeiro ano. Pela graça de Deus, o projeto cresceu e, no último
+                ano, distribuímos mais de <strong>700 kits</strong> — cada um
+                preparado com carinho, fé e valores que fortalecem a família.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="card">
-          <img src="img/favicon-32x32.png" alt="Oficina de Páscoa" />
+        <div class="cards">
+          <img src="img/mt357.png" alt="Projeto MSG 357" />
           <div class="card-content">
-            <h3>Oficina de Páscoa 2026</h3>
-            <p>Caça ao Tesouro - 21 de março de 2026</p>
+            <h3>Projeto MSG 357</h3>
+            <p>
+              <strong>Transformando vidas através da solidariedade.</strong>
+            </p>
+
+            <div class="projeto-detalhes">
+              <p>
+                Começamos com humildade, entregando <strong>300 kits</strong> no
+                primeiro ano. Pela graça de Deus, o projeto cresceu e, no último
+                ano, distribuímos mais de <strong>700 kits</strong> — cada um
+                preparado com carinho, fé e valores que fortalecem a família.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- CALENDÁRIO 2026 -->
-    <section id="calendario" class="section-calendario">
-      <h2>Calendário Anual 2026</h2>
-      <p class="calendario-texto">Confira todas as atividades do ano!</p>
-
-      <div class="calendario-container">
-        <div class="calendario-card">
-          <h3>Primeiro Semestre</h3>
-          <img
-            src="img/android-chrome-192x192.png"
-            alt="Calendário 1º Semestre 2026"
-            class="calendario-img"
-          />
-        </div>
-        <div class="calendario-card">
-          <h3>Segundo Semestre</h3>
-          <img
-            src="img/android-chrome-192x192.png"
-            alt="Calendário 2º Semestre 2026"
-            class="calendario-img"
-          />
-        </div>
-      </div>
-
-      <div style="text-align: center; margin-top: 40px">
-        <a href="#" class="btn btn-primary"
-          >Baixar Calendário Completo 2026 (PDF)</a
-        >
-      </div>
+      </aside>
     </section>
 
     <!-- INSTAGRAM -->
-    <section id="instagram" class="section-instagram">
-      <h2>Siga-nos no Instagram</h2>
-      <p class="instagram-texto">Acompanhe nossas atividades e eventos</p>
+    <section id="redes-sociais" class="section-redes-sociais">
+      <h2>Siga-nos nas Redes Sociais</h2>
+      <p class="redes-socias-texto">Acompanhe nossas atividades e eventos</p>
 
       <!-- Seus embeds do Instagram (mantive como estava) -->
-      <div class="instagram-embed-container">
-        <blockquote
-          class="instagram-media"
-          data-instgrm-permalink="https://www.instagram.com/p/DVZQe8yEtnE/"
-          data-instgrm-version="14"
-        ></blockquote>
-      </div>
-      <div class="instagram-embed-container">
-        <blockquote
-          class="instagram-media"
-          data-instgrm-permalink="https://www.instagram.com/reel/DPOdd9Nju-3"
-          data-instgrm-version="14"
-        ></blockquote>
-      </div>
-      <div class="instagram-embed-container">
-        <blockquote
-          class="instagram-media"
-          data-instgrm-permalink="https://www.instagram.com/reel/DRzsuYWkVlU/"
-          data-instgrm-version="14"
-        ></blockquote>
-      </div>
+      <aside>
+        <div class="instagram-embed-container">
+          <blockquote
+            class="instagram-media"
+            data-instgrm-permalink="https://www.instagram.com/p/DVZQe8yEtnE/"
+            data-instgrm-version="14"
+          ></blockquote>
+        </div>
+        <div class="instagram-embed-container">
+          <blockquote
+            class="instagram-media"
+            data-instgrm-permalink="https://www.instagram.com/reel/DPOdd9Nju-3"
+            data-instgrm-version="14"
+          ></blockquote>
+        </div>
+        <div class="instagram-embed-container">
+          <blockquote
+            class="instagram-media"
+            data-instgrm-permalink="https://www.instagram.com/reel/DRzsuYWkVlU/"
+            data-instgrm-version="14"
+          ></blockquote>
+        </div>
+      </aside>
       <!-- Repita para os outros dois reels que você tinha -->
 
       <div style="text-align: center; margin-top: 40px">
@@ -210,8 +247,14 @@
       <p>
         Sua contribuição faz a diferença na vida de muitas crianças e jovens.
       </p>
+      <p>
+        Neste ano, queremos ir ainda mais longe. Convidamos você a ser um
+        <strong>PATROCINADOR</strong>, fazendo parte dessa corrente que leva às
+        crianças não só um presente, mas uma experiência de acolhimento e
+        esperança que ficará marcada em seus corações.
+      </p>
       <a
-        href="https://docs.google.com/forms/..."
+        href="https://wa.me/5519978286975?text=Olá!%20Vi%20o%20site%20e%20quero%20ser%20um%20PATROCINADOR%20do%20Projeto%20MSG%20357."
         target="_blank"
         class="btn btn-primary btn-large"
       >
@@ -222,14 +265,26 @@
     <!-- FOOTER -->
     <footer>
       <div class="footer-content">
-        <p>📍 Campinas - SP &nbsp;&nbsp; | &nbsp;&nbsp; 📞 (19) 97828-6975</p>
+        <p>
+          📍 Campinas - SP &nbsp;&nbsp; | &nbsp;&nbsp; 📞
+          <a
+            href="https://wa.me/5519978286975?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Instituto%20Cora%C3%A7%C3%A3o%20Almas."
+            target="_blank"
+            class="whatsapp-float"
+            title="Fale conosco no WhatsApp"
+          >
+            (19) 97828-6975
+          </a>
+        </p>
         <p>Instagram: <strong>@institutocoracaoalmas</strong></p>
         <p class="copyright">
-          Copyright © 2026 Instituto Coração Almas Missionárias
+          Copyright
+          <strong id="ano"> </strong>
+          Instituto Coração Almas Missionárias
         </p>
         <div class="footer-links">
           <a href="https://celiotech.netlify.app/" target="_blank"
-            >Criado e Desenvolvido por Célio</a
+            >Criado e Desenvolvido por <strong>Célio</strong></a
           >
         </div>
       </div>
