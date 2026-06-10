@@ -90,6 +90,7 @@ nav {
   color: var(--azul-escuro);
   font-weight: 500;
   transition: color 0.3s;
+  font-size: 18px;
 }
 
 .menu a:hover {
@@ -104,10 +105,32 @@ header {
   color: white;
   text-align: center;
   padding: 180px 20px 140px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  flex-direction: row;
+}
+header div {
+  text-align: center;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+header div img {
+  width: 300px;
+  height: 300px; /* Aumentei de 40px para 200px para ser visível */
 }
 
 .section-sobre {
-  display: block;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
 }
 
 .section-projetos {
@@ -279,6 +302,76 @@ h2 {
   color: var(--azul-escuro);
   margin-bottom: 14px;
   font-size: 1.4rem;
+}
+
+/* ==================== CALENDÁRIO ==================== */
+.section-calendario {
+  padding: 60px 20px;
+  background-color: #f9f9f9; /* Ou a cor de fundo que preferir */
+  text-align: center;
+}
+
+.section-calendario h2 {
+  margin-bottom: 10px;
+  color: #0b3d91; /* Cor azul do seu logo */
+}
+
+.calendario-aviso {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 40px;
+  font-style: italic;
+}
+
+.calendario-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.calendario-card {
+  flex: 1;
+  min-width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: left;
+  border-top: 5px solid #d32f2f; /* Cor vermelha do seu logo */
+}
+
+.calendario-card h3 {
+  color: #d32f2f;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.calendario-lista {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.calendario-lista li {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.calendario-lista li:last-child {
+  border-bottom: none;
+}
+
+.calendario-lista li strong {
+  color: #0b3d91;
+  display: inline-block;
+  min-width: 85px; /* Mantém as datas alinhadas */
 }
 
 /* Seção Contato */
