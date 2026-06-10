@@ -599,6 +599,14 @@ footer .copyright {
     margin: 10px 0;
   }
 
+  header  {
+    text-align: center;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
   .section-projetos aside {
     display: flex;
     align-items: center;
